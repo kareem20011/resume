@@ -23,8 +23,9 @@
 
     <!-- google fonts -->
 
-    <link rel="stylesheet" href="./bootstrap.main.css" />
-    <link rel="stylesheet" href="./all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.main.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/normalization.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -32,7 +33,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="container p-5">
+    <header class="px-5 py-3 mb-5">
       <nav class="navbar navbar-expand-lg">
         <div class="nav-container container-fluid">
           <a class="navbar-brand headLind" href="#">Kareem</a>
@@ -83,14 +84,17 @@
         <div class="morinfo">
           <div class="user">
             <div class="img">
-              <img src="./myImage.jpg" alt="user image..." />
+              <img src="./image/myImage.jpg" alt="user image..." />
             </div>
             <div class="bio">
               <h3>Biography</h3>
               <p>
-                Getting Buff +1 for learning, Buff +2 for documentation and more
-                buff on managing team. Exicited on <span>React</span>,
-                <span>UX</span> Research and <span>Agile</span>.
+                Getting +1 years for learning code, and +6 months for working on
+                projects and more working with <span class="bg-r">teams</span>.
+                Exicited on <span class="bg-g">React</span>,
+                <span class="bg-b">UX</span> Research and
+                <span class="bg-g">Laravel</span>,
+                <span class="bg-b">Database</span> Diagram,
               </p>
             </div>
           </div>
@@ -118,7 +122,55 @@
         </div>
       </div>
     </header>
-    <script src="./bootstrap.main.js"></script>
+
+    <section class="px-5 py-3 bg-lighter">
+      <div class="whatIDo my-5">
+        <div class="text">
+          <h3>Whate i do</h3>
+          <p>
+            Build and maintain websites, backend and frontend dev <br />
+            My motto is Beauty and function in equal measure as priority
+          </p>
+        </div>
+        <div class="myEX">
+          <div class="card p-4">
+            <div class="icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <h3>react frontend Development</h3>
+            <p>
+              You will receive a custom front-end design for your business that
+              will be responsive using the latest technology.
+            </p>
+          </div>
+
+          <div class="card p-4">
+            <div class="icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <h3>database Development</h3>
+            <p>
+              You will receive a ERD "entity relationship diagram" and schema
+              for your project and i can help if your project using laravel.
+            </p>
+          </div>
+
+          <div class="card p-4">
+            <div class="icon">
+              <i class="fa-brands fa-laravel"></i>
+            </div>
+            <h3>Laravel backend Development</h3>
+            <p>
+              You will receive something like e-commerce, a blog in multiple languages, an interactive dynamic resume with a dashboard, admin panels, and more...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section></section>
+    <script src="./js/bootstrap.main.js"></script>
+    <script src="./js/app.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
