@@ -145,6 +145,6 @@ button:focus:not(:focus-visible) {
 /* secound section */
 @media only screen and (max-width: 995px) {
   .px-5 {
-    margin: 0 2rem !important;
+    padding: 0 2rem !important;
   }
 }
