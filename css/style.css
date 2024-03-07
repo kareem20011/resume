@@ -87,7 +87,7 @@ button:focus:not(:focus-visible) {
     margin: 0;
   }
   h1 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   .img {
     margin: auto;
